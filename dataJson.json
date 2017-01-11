@@ -1,0 +1,1402 @@
+[
+ {
+   "country": "Costa Rica",
+   "region": "Americas",
+   "life": "79.1",
+   "wellbeing": "7.3",
+   "inequality": "15",
+   "ecological": "2.8",
+   "FIELD7": "=",
+   "happy": "44.7"
+ },
+ {
+   "country": "Mexico",
+   "region": "Americas",
+   "life": "76.4",
+   "wellbeing": "7.3",
+   "inequality": "19",
+   "ecological": "2.9",
+   "FIELD7": "=",
+   "happy": "40.7"
+ },
+ {
+   "country": "Colombia",
+   "region": "Americas",
+   "life": "73.7",
+   "wellbeing": "6.4",
+   "inequality": "24",
+   "ecological": "1.9",
+   "FIELD7": "=",
+   "happy": "40.7"
+ },
+ {
+   "country": "Vanuatu",
+   "region": "Asia Pacific",
+   "life": "71.3",
+   "wellbeing": "6.5",
+   "inequality": "22",
+   "ecological": "1.9",
+   "FIELD7": "=",
+   "happy": "40.6"
+ },
+ {
+   "country": "Vietnam",
+   "region": "Asia Pacific",
+   "life": "75.5",
+   "wellbeing": "5.5",
+   "inequality": "19",
+   "ecological": "1.7",
+   "FIELD7": "=",
+   "happy": "40.3"
+ },
+ {
+   "country": "Panama",
+   "region": "Americas",
+   "life": "77.2",
+   "wellbeing": "6.9",
+   "inequality": "19",
+   "ecological": "2.8",
+   "FIELD7": "=",
+   "happy": "39.5"
+ },
+ {
+   "country": "Nicaragua",
+   "region": "Americas",
+   "life": "74.3",
+   "wellbeing": "5.4",
+   "inequality": "25",
+   "ecological": "1.4",
+   "FIELD7": "=",
+   "happy": "38.7"
+ },
+ {
+   "country": "Bangladesh",
+   "region": "Asia Pacific",
+   "life": "70.8",
+   "wellbeing": "4.7",
+   "inequality": "27",
+   "ecological": "0.7",
+   "FIELD7": "=",
+   "happy": "38.4"
+ },
+ {
+   "country": "Thailand",
+   "region": "Asia Pacific",
+   "life": "74.1",
+   "wellbeing": "6.3",
+   "inequality": "15",
+   "ecological": "2.7",
+   "FIELD7": "=",
+   "happy": "37.3"
+ },
+ {
+   "country": "Ecuador",
+   "region": "Americas",
+   "life": "75.4",
+   "wellbeing": "6.0",
+   "inequality": "22",
+   "ecological": "2.2",
+   "FIELD7": "=",
+   "happy": "37.0"
+ },
+ {
+   "country": "Jamaica",
+   "region": "Americas",
+   "life": "75.3",
+   "wellbeing": "5.6",
+   "inequality": "21",
+   "ecological": "1.9",
+   "FIELD7": "=",
+   "happy": "36.9"
+ },
+ {
+   "country": "Norway",
+   "region": "Europe",
+   "life": "81.3",
+   "wellbeing": "7.7",
+   "inequality": "7",
+   "ecological": "5.0",
+   "FIELD7": "=",
+   "happy": "36.8"
+ },
+ {
+   "country": "Albania",
+   "region": "Post-communist",
+   "life": "77.3",
+   "wellbeing": "5.5",
+   "inequality": "17",
+   "ecological": "2.2",
+   "FIELD7": "=",
+   "happy": "36.8"
+ },
+ {
+   "country": "Uruguay",
+   "region": "Americas",
+   "life": "76.9",
+   "wellbeing": "6.4",
+   "inequality": "18",
+   "ecological": "2.9",
+   "FIELD7": "=",
+   "happy": "36.1"
+ },
+ {
+   "country": "Spain",
+   "region": "Europe",
+   "life": "82.2",
+   "wellbeing": "6.3",
+   "inequality": "10",
+   "ecological": "3.7",
+   "FIELD7": "=",
+   "happy": "36.0"
+ },
+ {
+   "country": "Indonesia",
+   "region": "Asia Pacific",
+   "life": "68.5",
+   "wellbeing": "5.4",
+   "inequality": "21",
+   "ecological": "1.6",
+   "FIELD7": "=",
+   "happy": "35.7"
+ },
+ {
+   "country": "El Salvador",
+   "region": "Americas",
+   "life": "72.5",
+   "wellbeing": "5.9",
+   "inequality": "22",
+   "ecological": "2.1",
+   "FIELD7": "=",
+   "happy": "35.6"
+ },
+ {
+   "country": "Netherlands",
+   "region": "Europe",
+   "life": "81.2",
+   "wellbeing": "7.5",
+   "inequality": "4",
+   "ecological": "5.3",
+   "FIELD7": "=",
+   "happy": "35.3"
+ },
+ {
+   "country": "Argentina",
+   "region": "Americas",
+   "life": "75.9",
+   "wellbeing": "6.5",
+   "inequality": "16",
+   "ecological": "3.1",
+   "FIELD7": "=",
+   "happy": "35.2"
+ },
+ {
+   "country": "Philippines",
+   "region": "Asia Pacific",
+   "life": "67.9",
+   "wellbeing": "5.0",
+   "inequality": "26",
+   "ecological": "1.1",
+   "FIELD7": "=",
+   "happy": "35.0"
+ },
+ {
+   "country": "Peru",
+   "region": "Americas",
+   "life": "74.1",
+   "wellbeing": "5.8",
+   "inequality": "21",
+   "ecological": "2.3",
+   "FIELD7": "=",
+   "happy": "34.6"
+ },
+ {
+   "country": "Palestine",
+   "region": "Middle East and North Africa",
+   "life": "72.6",
+   "wellbeing": "4.6",
+   "inequality": "24",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "34.5"
+ },
+ {
+   "country": "Brazil",
+   "region": "Americas",
+   "life": "73.9",
+   "wellbeing": "6.9",
+   "inequality": "22",
+   "ecological": "3.1",
+   "FIELD7": "=",
+   "happy": "34.3"
+ },
+ {
+   "country": "Switzerland",
+   "region": "Europe",
+   "life": "82.6",
+   "wellbeing": "7.8",
+   "inequality": "6",
+   "ecological": "5.8",
+   "FIELD7": "=",
+   "happy": "34.3"
+ },
+ {
+   "country": "Tajikistan",
+   "region": "Post-communist",
+   "life": "69.0",
+   "wellbeing": "4.5",
+   "inequality": "26",
+   "ecological": "0.9",
+   "FIELD7": "=",
+   "happy": "34.2"
+ },
+ {
+   "country": "Guatemala",
+   "region": "Americas",
+   "life": "71.4",
+   "wellbeing": "5.9",
+   "inequality": "27",
+   "ecological": "1.9",
+   "FIELD7": "=",
+   "happy": "34.2"
+ },
+ {
+   "country": "Belize",
+   "region": "Americas",
+   "life": "69.8",
+   "wellbeing": "6.1",
+   "inequality": "18",
+   "ecological": "2.5",
+   "FIELD7": "=",
+   "happy": "33.8"
+ },
+ {
+   "country": "Sri Lanka",
+   "region": "Asia Pacific",
+   "life": "74.6",
+   "wellbeing": "4.2",
+   "inequality": "17",
+   "ecological": "1.3",
+   "FIELD7": "=",
+   "happy": "33.8"
+ },
+ {
+   "country": "Venezuela",
+   "region": "Americas",
+   "life": "73.9",
+   "wellbeing": "7.1",
+   "inequality": "19",
+   "ecological": "3.6",
+   "FIELD7": "=",
+   "happy": "33.6"
+ },
+ {
+   "country": "Algeria",
+   "region": "Middle East and North Africa",
+   "life": "74.3",
+   "wellbeing": "5.6",
+   "inequality": "24",
+   "ecological": "2.1",
+   "FIELD7": "=",
+   "happy": "33.3"
+ },
+ {
+   "country": "Kyrgyzstan",
+   "region": "Post-communist",
+   "life": "69.7",
+   "wellbeing": "5.2",
+   "inequality": "18",
+   "ecological": "1.9",
+   "FIELD7": "=",
+   "happy": "33.1"
+ },
+ {
+   "country": "Denmark",
+   "region": "Europe",
+   "life": "79.8",
+   "wellbeing": "7.5",
+   "inequality": "7",
+   "ecological": "5.5",
+   "FIELD7": "=",
+   "happy": "32.7"
+ },
+ {
+   "country": "Morocco",
+   "region": "Middle East and North Africa",
+   "life": "73.4",
+   "wellbeing": "5.0",
+   "inequality": "25",
+   "ecological": "1.7",
+   "FIELD7": "=",
+   "happy": "32.7"
+ },
+ {
+   "country": "United Kingdom",
+   "region": "Europe",
+   "life": "80.4",
+   "wellbeing": "6.9",
+   "inequality": "9",
+   "ecological": "4.9",
+   "FIELD7": "=",
+   "happy": "31.9"
+ },
+ {
+   "country": "Chile",
+   "region": "Americas",
+   "life": "81.1",
+   "wellbeing": "6.6",
+   "inequality": "14",
+   "ecological": "4.4",
+   "FIELD7": "=",
+   "happy": "31.7"
+ },
+ {
+   "country": "Pakistan",
+   "region": "Asia Pacific",
+   "life": "65.7",
+   "wellbeing": "5.1",
+   "inequality": "40",
+   "ecological": "0.8",
+   "FIELD7": "=",
+   "happy": "31.5"
+ },
+ {
+   "country": "Finland",
+   "region": "Europe",
+   "life": "80.4",
+   "wellbeing": "7.4",
+   "inequality": "6",
+   "ecological": "5.9",
+   "FIELD7": "=",
+   "happy": "31.3"
+ },
+ {
+   "country": "New Zealand",
+   "region": "Asia Pacific",
+   "life": "81.4",
+   "wellbeing": "7.2",
+   "inequality": "8",
+   "ecological": "5.6",
+   "FIELD7": "=",
+   "happy": "31.3"
+ },
+ {
+   "country": "Iceland",
+   "region": "Europe",
+   "life": "82.2",
+   "wellbeing": "7.6",
+   "inequality": "5",
+   "ecological": "6.4",
+   "FIELD7": "=",
+   "happy": "31.1"
+ },
+ {
+   "country": "Georgia",
+   "region": "Post-communist",
+   "life": "74.6",
+   "wellbeing": "4.3",
+   "inequality": "20",
+   "ecological": "1.6",
+   "FIELD7": "=",
+   "happy": "31.1"
+ },
+ {
+   "country": "Cyprus",
+   "region": "Europe",
+   "life": "79.8",
+   "wellbeing": "6.2",
+   "inequality": "12",
+   "ecological": "4.2",
+   "FIELD7": "=",
+   "happy": "30.7"
+ },
+ {
+   "country": "Nepal",
+   "region": "Asia Pacific",
+   "life": "68.8",
+   "wellbeing": "4.2",
+   "inequality": "27",
+   "ecological": "1.0",
+   "FIELD7": "=",
+   "happy": "30.5"
+ },
+ {
+   "country": "Austria",
+   "region": "Europe",
+   "life": "81.0",
+   "wellbeing": "7.4",
+   "inequality": "7",
+   "ecological": "6.1",
+   "FIELD7": "=",
+   "happy": "30.5"
+ },
+ {
+   "country": "France",
+   "region": "Europe",
+   "life": "81.8",
+   "wellbeing": "6.6",
+   "inequality": "9",
+   "ecological": "5.1",
+   "FIELD7": "=",
+   "happy": "30.4"
+ },
+ {
+   "country": "Dominican Republic",
+   "region": "Americas",
+   "life": "73.1",
+   "wellbeing": "4.8",
+   "inequality": "30",
+   "ecological": "1.5",
+   "FIELD7": "=",
+   "happy": "30.3"
+ },
+ {
+   "country": "Malaysia",
+   "region": "Asia Pacific",
+   "life": "74.4",
+   "wellbeing": "5.9",
+   "inequality": "10",
+   "ecological": "3.7",
+   "FIELD7": "=",
+   "happy": "30.3"
+ },
+ {
+   "country": "Croatia",
+   "region": "Post-communist",
+   "life": "77.0",
+   "wellbeing": "6.0",
+   "inequality": "12",
+   "ecological": "3.9",
+   "FIELD7": "=",
+   "happy": "30.2"
+ },
+ {
+   "country": "Ireland",
+   "region": "Europe",
+   "life": "80.5",
+   "wellbeing": "7.0",
+   "inequality": "8",
+   "ecological": "5.6",
+   "FIELD7": "=",
+   "happy": "30.0"
+ },
+ {
+   "country": "Germany",
+   "region": "Europe",
+   "life": "80.6",
+   "wellbeing": "6.7",
+   "inequality": "8",
+   "ecological": "5.3",
+   "FIELD7": "=",
+   "happy": "29.8"
+ },
+ {
+   "country": "India",
+   "region": "Asia Pacific",
+   "life": "67.3",
+   "wellbeing": "4.6",
+   "inequality": "31",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "29.2"
+ },
+ {
+   "country": "Uzbekistan",
+   "region": "Post-communist",
+   "life": "68.2",
+   "wellbeing": "6.0",
+   "inequality": "30",
+   "ecological": "2.3",
+   "FIELD7": "=",
+   "happy": "29.1"
+ },
+ {
+   "country": "Serbia",
+   "region": "Post-communist",
+   "life": "74.5",
+   "wellbeing": "5.2",
+   "inequality": "19",
+   "ecological": "2.7",
+   "FIELD7": "=",
+   "happy": "29.0"
+ },
+ {
+   "country": "Malta",
+   "region": "Europe",
+   "life": "80.2",
+   "wellbeing": "6.0",
+   "inequality": "13",
+   "ecological": "4.4",
+   "FIELD7": "=",
+   "happy": "29.0"
+ },
+ {
+   "country": "Israel",
+   "region": "Middle East and North Africa",
+   "life": "81.9",
+   "wellbeing": "7.1",
+   "inequality": "8",
+   "ecological": "6.2",
+   "FIELD7": "=",
+   "happy": "28.8"
+ },
+ {
+   "country": "Romania",
+   "region": "Post-communist",
+   "life": "74.3",
+   "wellbeing": "5.2",
+   "inequality": "19",
+   "ecological": "2.7",
+   "FIELD7": "=",
+   "happy": "28.8"
+ },
+ {
+   "country": "Bhutan",
+   "region": "Asia Pacific",
+   "life": "68.7",
+   "wellbeing": "5.6",
+   "inequality": "27",
+   "ecological": "2.3",
+   "FIELD7": "=",
+   "happy": "28.6"
+ },
+ {
+   "country": "Haiti",
+   "region": "Americas",
+   "life": "62.1",
+   "wellbeing": "4.4",
+   "inequality": "37",
+   "ecological": "0.6",
+   "FIELD7": "=",
+   "happy": "28.6"
+ },
+ {
+   "country": "Japan",
+   "region": "Asia Pacific",
+   "life": "83.2",
+   "wellbeing": "6.0",
+   "inequality": "9",
+   "ecological": "5.0",
+   "FIELD7": "=",
+   "happy": "28.3"
+ },
+ {
+   "country": "Slovakia",
+   "region": "Post-communist",
+   "life": "75.9",
+   "wellbeing": "5.9",
+   "inequality": "13",
+   "ecological": "4.1",
+   "FIELD7": "=",
+   "happy": "28.2"
+ },
+ {
+   "country": "Italy",
+   "region": "Europe",
+   "life": "82.7",
+   "wellbeing": "5.8",
+   "inequality": "12",
+   "ecological": "4.6",
+   "FIELD7": "=",
+   "happy": "28.1"
+ },
+ {
+   "country": "Sweden",
+   "region": "Europe",
+   "life": "81.8",
+   "wellbeing": "7.6",
+   "inequality": "6",
+   "ecological": "7.3",
+   "FIELD7": "=",
+   "happy": "28.0"
+ },
+ {
+   "country": "Poland",
+   "region": "Post-communist",
+   "life": "76.9",
+   "wellbeing": "5.9",
+   "inequality": "11",
+   "ecological": "4.4",
+   "FIELD7": "=",
+   "happy": "27.5"
+ },
+ {
+   "country": "Mauritius",
+   "region": "Sub Saharan Africa",
+   "life": "74.0",
+   "wellbeing": "5.5",
+   "inequality": "17",
+   "ecological": "3.5",
+   "FIELD7": "=",
+   "happy": "27.4"
+ },
+ {
+   "country": "Czech Republic",
+   "region": "Post-communist",
+   "life": "78.2",
+   "wellbeing": "6.3",
+   "inequality": "9",
+   "ecological": "5.2",
+   "FIELD7": "=",
+   "happy": "27.3"
+ },
+ {
+   "country": "Honduras",
+   "region": "Americas",
+   "life": "72.8",
+   "wellbeing": "4.6",
+   "inequality": "31",
+   "ecological": "1.7",
+   "FIELD7": "=",
+   "happy": "27.2"
+ },
+ {
+   "country": "Ethiopia",
+   "region": "Sub Saharan Africa",
+   "life": "62.8",
+   "wellbeing": "4.6",
+   "inequality": "36",
+   "ecological": "1.0",
+   "FIELD7": "=",
+   "happy": "26.7"
+ },
+ {
+   "country": "Iraq",
+   "region": "Middle East and North Africa",
+   "life": "69.0",
+   "wellbeing": "4.7",
+   "inequality": "27",
+   "ecological": "1.9",
+   "FIELD7": "=",
+   "happy": "26.5"
+ },
+ {
+   "country": "Turkey",
+   "region": "Middle East and North Africa",
+   "life": "74.7",
+   "wellbeing": "5.3",
+   "inequality": "19",
+   "ecological": "3.3",
+   "FIELD7": "=",
+   "happy": "26.4"
+ },
+ {
+   "country": "Hungary",
+   "region": "Post-communist",
+   "life": "74.9",
+   "wellbeing": "4.7",
+   "inequality": "15",
+   "ecological": "2.9",
+   "FIELD7": "=",
+   "happy": "26.4"
+ },
+ {
+   "country": "Ukraine",
+   "region": "Post-communist",
+   "life": "70.3",
+   "wellbeing": "5.0",
+   "inequality": "17",
+   "ecological": "2.8",
+   "FIELD7": "=",
+   "happy": "26.4"
+ },
+ {
+   "country": "Tunisia",
+   "region": "Middle East and North Africa",
+   "life": "74.6",
+   "wellbeing": "4.5",
+   "inequality": "22",
+   "ecological": "2.3",
+   "FIELD7": "=",
+   "happy": "26.2"
+ },
+ {
+   "country": "China",
+   "region": "Asia Pacific",
+   "life": "75.4",
+   "wellbeing": "5.1",
+   "inequality": "17",
+   "ecological": "3.4",
+   "FIELD7": "=",
+   "happy": "25.7"
+ },
+ {
+   "country": "Armenia",
+   "region": "Post-communist",
+   "life": "74.4",
+   "wellbeing": "4.3",
+   "inequality": "22",
+   "ecological": "2.2",
+   "FIELD7": "=",
+   "happy": "25.7"
+ },
+ {
+   "country": "Cambodia",
+   "region": "Asia Pacific",
+   "life": "67.5",
+   "wellbeing": "3.9",
+   "inequality": "28",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "25.6"
+ },
+ {
+   "country": "Suriname",
+   "region": "Americas",
+   "life": "70.8",
+   "wellbeing": "6.3",
+   "inequality": "19",
+   "ecological": "4.3",
+   "FIELD7": "=",
+   "happy": "25.4"
+ },
+ {
+   "country": "Bosnia and Herzegovina",
+   "region": "Post-communist",
+   "life": "76.2",
+   "wellbeing": "4.8",
+   "inequality": "19",
+   "ecological": "3.1",
+   "FIELD7": "=",
+   "happy": "25.3"
+ },
+ {
+   "country": "Zambia",
+   "region": "Sub Saharan Africa",
+   "life": "58.4",
+   "wellbeing": "5.0",
+   "inequality": "41",
+   "ecological": "1.0",
+   "FIELD7": "=",
+   "happy": "25.2"
+ },
+ {
+   "country": "Montenegro",
+   "region": "Post-communist",
+   "life": "75.8",
+   "wellbeing": "5.2",
+   "inequality": "16",
+   "ecological": "3.8",
+   "FIELD7": "=",
+   "happy": "25.1"
+ },
+ {
+   "country": "Portugal",
+   "region": "Europe",
+   "life": "80.3",
+   "wellbeing": "5.0",
+   "inequality": "16",
+   "ecological": "3.9",
+   "FIELD7": "=",
+   "happy": "24.8"
+ },
+ {
+   "country": "South Korea",
+   "region": "Asia Pacific",
+   "life": "81.3",
+   "wellbeing": "6.0",
+   "inequality": "11",
+   "ecological": "5.7",
+   "FIELD7": "=",
+   "happy": "24.8"
+ },
+ {
+   "country": "Myanmar",
+   "region": "Asia Pacific",
+   "life": "65.5",
+   "wellbeing": "4.4",
+   "inequality": "32",
+   "ecological": "1.4",
+   "FIELD7": "=",
+   "happy": "24.7"
+ },
+ {
+   "country": "Slovenia",
+   "region": "Post-communist",
+   "life": "80.0",
+   "wellbeing": "6.1",
+   "inequality": "10",
+   "ecological": "5.8",
+   "FIELD7": "=",
+   "happy": "24.6"
+ },
+ {
+   "country": "Kenya",
+   "region": "Sub Saharan Africa",
+   "life": "60.3",
+   "wellbeing": "4.5",
+   "inequality": "38",
+   "ecological": "1.0",
+   "FIELD7": "=",
+   "happy": "24.2"
+ },
+ {
+   "country": "Iran",
+   "region": "Middle East and North Africa",
+   "life": "74.8",
+   "wellbeing": "4.6",
+   "inequality": "23",
+   "ecological": "2.8",
+   "FIELD7": "=",
+   "happy": "24.0"
+ },
+ {
+   "country": "Canada",
+   "region": "Americas",
+   "life": "81.7",
+   "wellbeing": "7.4",
+   "inequality": "9",
+   "ecological": "8.2",
+   "FIELD7": "=",
+   "happy": "23.9"
+ },
+ {
+   "country": "Egypt",
+   "region": "Middle East and North Africa",
+   "life": "70.7",
+   "wellbeing": "4.2",
+   "inequality": "23",
+   "ecological": "2.2",
+   "FIELD7": "=",
+   "happy": "23.8"
+ },
+ {
+   "country": "Belgium",
+   "region": "Europe",
+   "life": "80.4",
+   "wellbeing": "6.9",
+   "inequality": "9",
+   "ecological": "7.4",
+   "FIELD7": "=",
+   "happy": "23.7"
+ },
+ {
+   "country": "Mozambique",
+   "region": "Sub Saharan Africa",
+   "life": "54.3",
+   "wellbeing": "5.0",
+   "inequality": "43",
+   "ecological": "0.9",
+   "FIELD7": "=",
+   "happy": "23.7"
+ },
+ {
+   "country": "Greece",
+   "region": "Europe",
+   "life": "80.5",
+   "wellbeing": "5.1",
+   "inequality": "16",
+   "ecological": "4.4",
+   "FIELD7": "=",
+   "happy": "23.6"
+ },
+ {
+   "country": "Macedonia",
+   "region": "Post-communist",
+   "life": "75.1",
+   "wellbeing": "4.6",
+   "inequality": "18",
+   "ecological": "3.3",
+   "FIELD7": "=",
+   "happy": "23.4"
+ },
+ {
+   "country": "Paraguay",
+   "region": "Americas",
+   "life": "72.6",
+   "wellbeing": "5.8",
+   "inequality": "22",
+   "ecological": "4.2",
+   "FIELD7": "=",
+   "happy": "23.3"
+ },
+ {
+   "country": "Bolivia",
+   "region": "Americas",
+   "life": "67.5",
+   "wellbeing": "6.0",
+   "inequality": "35",
+   "ecological": "3.0",
+   "FIELD7": "=",
+   "happy": "23.3"
+ },
+ {
+   "country": "Comoros",
+   "region": "Sub Saharan Africa",
+   "life": "62.6",
+   "wellbeing": "4.0",
+   "inequality": "36",
+   "ecological": "1.0",
+   "FIELD7": "=",
+   "happy": "23.1"
+ },
+ {
+   "country": "Yemen",
+   "region": "Middle East and North Africa",
+   "life": "63.3",
+   "wellbeing": "4.1",
+   "inequality": "39",
+   "ecological": "1.0",
+   "FIELD7": "=",
+   "happy": "22.8"
+ },
+ {
+   "country": "Nigeria",
+   "region": "Sub Saharan Africa",
+   "life": "52.1",
+   "wellbeing": "5.5",
+   "inequality": "44",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "22.2"
+ },
+ {
+   "country": "Liberia",
+   "region": "Sub Saharan Africa",
+   "life": "60.2",
+   "wellbeing": "4.4",
+   "inequality": "38",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "22.2"
+ },
+ {
+   "country": "Tanzania",
+   "region": "Sub Saharan Africa",
+   "life": "63.5",
+   "wellbeing": "4.0",
+   "inequality": "33",
+   "ecological": "1.3",
+   "FIELD7": "=",
+   "happy": "22.1"
+ },
+ {
+   "country": "Malawi",
+   "region": "Sub Saharan Africa",
+   "life": "60.1",
+   "wellbeing": "4.3",
+   "inequality": "45",
+   "ecological": "0.8",
+   "FIELD7": "=",
+   "happy": "22.1"
+ },
+ {
+   "country": "Zimbabwe",
+   "region": "Sub Saharan Africa",
+   "life": "53.7",
+   "wellbeing": "5.0",
+   "inequality": "37",
+   "ecological": "1.4",
+   "FIELD7": "=",
+   "happy": "22.1"
+ },
+ {
+   "country": "Lebanon",
+   "region": "Middle East and North Africa",
+   "life": "78.8",
+   "wellbeing": "4.6",
+   "inequality": "19",
+   "ecological": "3.8",
+   "FIELD7": "=",
+   "happy": "21.9"
+ },
+ {
+   "country": "Senegal",
+   "region": "Sub Saharan Africa",
+   "life": "65.4",
+   "wellbeing": "3.7",
+   "inequality": "33",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "21.9"
+ },
+ {
+   "country": "Belarus",
+   "region": "Post-communist",
+   "life": "70.9",
+   "wellbeing": "5.7",
+   "inequality": "13",
+   "ecological": "5.1",
+   "FIELD7": "=",
+   "happy": "21.7"
+ },
+ {
+   "country": "Namibia",
+   "region": "Sub Saharan Africa",
+   "life": "64.0",
+   "wellbeing": "4.7",
+   "inequality": "26",
+   "ecological": "2.5",
+   "FIELD7": "=",
+   "happy": "21.6"
+ },
+ {
+   "country": "Ghana",
+   "region": "Sub Saharan Africa",
+   "life": "61.0",
+   "wellbeing": "5.1",
+   "inequality": "38",
+   "ecological": "2.0",
+   "FIELD7": "=",
+   "happy": "21.4"
+ },
+ {
+   "country": "Australia",
+   "region": "Asia Pacific",
+   "life": "82.1",
+   "wellbeing": "7.2",
+   "inequality": "8",
+   "ecological": "9.3",
+   "FIELD7": "=",
+   "happy": "21.2"
+ },
+ {
+   "country": "Oman",
+   "region": "Middle East and North Africa",
+   "life": "76.3",
+   "wellbeing": "6.9",
+   "inequality": "13",
+   "ecological": "7.5",
+   "FIELD7": "=",
+   "happy": "21.1"
+ },
+ {
+   "country": "Lithuania",
+   "region": "Post-communist",
+   "life": "72.8",
+   "wellbeing": "5.8",
+   "inequality": "11",
+   "ecological": "5.8",
+   "FIELD7": "=",
+   "happy": "21.0"
+ },
+ {
+   "country": "United States of America",
+   "region": "Americas",
+   "life": "78.8",
+   "wellbeing": "7.0",
+   "inequality": "13",
+   "ecological": "8.2",
+   "FIELD7": "=",
+   "happy": "20.7"
+ },
+ {
+   "country": "Bulgaria",
+   "region": "Post-communist",
+   "life": "73.9",
+   "wellbeing": "4.2",
+   "inequality": "19",
+   "ecological": "3.3",
+   "FIELD7": "=",
+   "happy": "20.4"
+ },
+ {
+   "country": "Afghanistan",
+   "region": "Middle East and North Africa",
+   "life": "59.7",
+   "wellbeing": "3.8",
+   "inequality": "43",
+   "ecological": "0.8",
+   "FIELD7": "=",
+   "happy": "20.2"
+ },
+ {
+   "country": "Rwanda",
+   "region": "Sub Saharan Africa",
+   "life": "63.1",
+   "wellbeing": "3.3",
+   "inequality": "37",
+   "ecological": "0.9",
+   "FIELD7": "=",
+   "happy": "19.6"
+ },
+ {
+   "country": "Uganda",
+   "region": "Sub Saharan Africa",
+   "life": "57.1",
+   "wellbeing": "4.3",
+   "inequality": "41",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "19.4"
+ },
+ {
+   "country": "Syria",
+   "region": "Middle East and North Africa",
+   "life": "70.4",
+   "wellbeing": "3.2",
+   "inequality": "30",
+   "ecological": "1.5",
+   "FIELD7": "=",
+   "happy": "19.1"
+ },
+ {
+   "country": "Kazakhstan",
+   "region": "Post-communist",
+   "life": "68.6",
+   "wellbeing": "5.8",
+   "inequality": "18",
+   "ecological": "5.6",
+   "FIELD7": "=",
+   "happy": "19.1"
+ },
+ {
+   "country": "Republic of Congo",
+   "region": "Sub Saharan Africa",
+   "life": "61.0",
+   "wellbeing": "3.9",
+   "inequality": "40",
+   "ecological": "1.3",
+   "FIELD7": "=",
+   "happy": "18.8"
+ },
+ {
+   "country": "Russia",
+   "region": "Post-communist",
+   "life": "69.5",
+   "wellbeing": "5.6",
+   "inequality": "16",
+   "ecological": "5.7",
+   "FIELD7": "=",
+   "happy": "18.7"
+ },
+ {
+   "country": "Mauritania",
+   "region": "Sub Saharan Africa",
+   "life": "62.6",
+   "wellbeing": "4.7",
+   "inequality": "37",
+   "ecological": "2.5",
+   "FIELD7": "=",
+   "happy": "18.0"
+ },
+ {
+   "country": "Estonia",
+   "region": "Post-communist",
+   "life": "76.2",
+   "wellbeing": "5.4",
+   "inequality": "12",
+   "ecological": "6.9",
+   "FIELD7": "=",
+   "happy": "17.9"
+ },
+ {
+   "country": "Burkina Faso",
+   "region": "Sub Saharan Africa",
+   "life": "58.0",
+   "wellbeing": "4.0",
+   "inequality": "43",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "17.9"
+ },
+ {
+   "country": "Gabon",
+   "region": "Sub Saharan Africa",
+   "life": "63.3",
+   "wellbeing": "4.0",
+   "inequality": "36",
+   "ecological": "2.0",
+   "FIELD7": "=",
+   "happy": "17.5"
+ },
+ {
+   "country": "Latvia",
+   "region": "Post-communist",
+   "life": "73.6",
+   "wellbeing": "5.1",
+   "inequality": "14",
+   "ecological": "6.3",
+   "FIELD7": "=",
+   "happy": "17.1"
+ },
+ {
+   "country": "Niger",
+   "region": "Sub Saharan Africa",
+   "life": "60.0",
+   "wellbeing": "3.8",
+   "inequality": "40",
+   "ecological": "1.6",
+   "FIELD7": "=",
+   "happy": "16.8"
+ },
+ {
+   "country": "Hong Kong",
+   "region": "Asia Pacific",
+   "life": "83.6",
+   "wellbeing": "5.5",
+   "inequality": "10",
+   "ecological": "8.8",
+   "FIELD7": "=",
+   "happy": "16.8"
+ },
+ {
+   "country": "Cameroon",
+   "region": "Sub Saharan Africa",
+   "life": "54.6",
+   "wellbeing": "4.2",
+   "inequality": "47",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "16.7"
+ },
+ {
+   "country": "Lesotho",
+   "region": "Sub Saharan Africa",
+   "life": "48.9",
+   "wellbeing": "4.9",
+   "inequality": "42",
+   "ecological": "1.7",
+   "FIELD7": "=",
+   "happy": "16.7"
+ },
+ {
+   "country": "Botswana",
+   "region": "Sub Saharan Africa",
+   "life": "64.2",
+   "wellbeing": "4.8",
+   "inequality": "28",
+   "ecological": "3.8",
+   "FIELD7": "=",
+   "happy": "16.6"
+ },
+ {
+   "country": "Djibouti",
+   "region": "Sub Saharan Africa",
+   "life": "61.3",
+   "wellbeing": "4.4",
+   "inequality": "42",
+   "ecological": "2.2",
+   "FIELD7": "=",
+   "happy": "16.4"
+ },
+ {
+   "country": "South Africa",
+   "region": "Sub Saharan Africa",
+   "life": "56.3",
+   "wellbeing": "5.1",
+   "inequality": "33",
+   "ecological": "3.3",
+   "FIELD7": "=",
+   "happy": "15.9"
+ },
+ {
+   "country": "Guinea",
+   "region": "Sub Saharan Africa",
+   "life": "57.7",
+   "wellbeing": "3.7",
+   "inequality": "42",
+   "ecological": "1.4",
+   "FIELD7": "=",
+   "happy": "15.9"
+ },
+ {
+   "country": "Trinidad and Tobago",
+   "region": "Americas",
+   "life": "70.1",
+   "wellbeing": "6.4",
+   "inequality": "21",
+   "ecological": "7.9",
+   "FIELD7": "=",
+   "happy": "15.7"
+ },
+ {
+   "country": "Burundi",
+   "region": "Sub Saharan Africa",
+   "life": "55.8",
+   "wellbeing": "3.4",
+   "inequality": "48",
+   "ecological": "0.8",
+   "FIELD7": "=",
+   "happy": "15.6"
+ },
+ {
+   "country": "Swaziland",
+   "region": "Sub Saharan Africa",
+   "life": "48.9",
+   "wellbeing": "4.9",
+   "inequality": "41",
+   "ecological": "2.0",
+   "FIELD7": "=",
+   "happy": "15.5"
+ },
+ {
+   "country": "Sierra Leone",
+   "region": "Sub Saharan Africa",
+   "life": "49.8",
+   "wellbeing": "4.5",
+   "inequality": "50",
+   "ecological": "1.2",
+   "FIELD7": "=",
+   "happy": "15.3"
+ },
+ {
+   "country": "Turkmenistan",
+   "region": "Post-communist",
+   "life": "65.3",
+   "wellbeing": "5.5",
+   "inequality": "31",
+   "ecological": "5.5",
+   "FIELD7": "=",
+   "happy": "14.6"
+ },
+ {
+   "country": "Cote d’Ivoire",
+   "region": "Sub Saharan Africa",
+   "life": "50.8",
+   "wellbeing": "3.8",
+   "inequality": "45",
+   "ecological": "1.3",
+   "FIELD7": "=",
+   "happy": "14.4"
+ },
+ {
+   "country": "Mongolia",
+   "region": "Asia Pacific",
+   "life": "68.6",
+   "wellbeing": "4.9",
+   "inequality": "22",
+   "ecological": "6.1",
+   "FIELD7": "=",
+   "happy": "14.3"
+ },
+ {
+   "country": "Benin",
+   "region": "Sub Saharan Africa",
+   "life": "59.2",
+   "wellbeing": "3.2",
+   "inequality": "44",
+   "ecological": "1.4",
+   "FIELD7": "=",
+   "happy": "13.4"
+ },
+ {
+   "country": "Togo",
+   "region": "Sub Saharan Africa",
+   "life": "58.6",
+   "wellbeing": "2.9",
+   "inequality": "43",
+   "ecological": "1.1",
+   "FIELD7": "=",
+   "happy": "13.2"
+ },
+ {
+   "country": "Luxembourg",
+   "region": "Europe",
+   "life": "81.1",
+   "wellbeing": "7.0",
+   "inequality": "7",
+   "ecological": "15.8",
+   "FIELD7": "=",
+   "happy": "13.2"
+ },
+ {
+   "country": "Chad",
+   "region": "Sub Saharan Africa",
+   "life": "50.8",
+   "wellbeing": "4.0",
+   "inequality": "51",
+   "ecological": "1.5",
+   "FIELD7": "=",
+   "happy": "12.8"
+ }
+]
