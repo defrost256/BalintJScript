@@ -58,7 +58,7 @@
         $("input").change(function(){
             shownDataIdx = $("input:checked").data("idx");
             simulation.force("collide").radius(function(d) { return d.dataSet[shownDataIdx] + 2; });
-            simulation.alpha(0).restart();
+            simulation.alpha(2).restart();
         });
 
         $.getJSON("dataJson.json", function(data){
