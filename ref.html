@@ -13,8 +13,14 @@
             margin: 5px;
         }
 
-        canvas{
+        svg, circle{
+            z-index: 2;
+            position: absolute;
+            left: 10vw;
+        }
 
+        div{
+            z-index: 3;
         }
 
     </style>
@@ -27,16 +33,26 @@
 
     <body>
         <svg width="960" height="960"></svg>
-        <label for="radio-1">Wellbeing</label>
-        <input type="radio" name="rad1" id="radio-1" data-idx="0">
-        <label for="radio-2">Life expectancy</label>
-        <input type="radio" name="rad1" id="radio-2" data-idx="1">
-        <label for="radio-3">Inequality</label>
-        <input type="radio" name="rad1" id="radio-3" data-idx="2">
-        <label for="radio-4">Ecological</label>
-        <input type="radio" name="rad1" id="radio-4" data-idx="3">
-        <label for="radio-5">Happyness</label>
-        <input type="radio" name="rad1" id="radio-5" data-idx="4">
+        <div>
+            <label for="radio-1">Wellbeing</label>
+            <input type="radio" name="rad1" id="radio-1" data-idx="0">
+        </div>
+        <div>
+            <label for="radio-2">Life expectancy</label>
+            <input type="radio" name="rad1" id="radio-2" data-idx="1">
+        </div>
+        <div>
+            <label for="radio-3">Inequality</label>
+            <input type="radio" name="rad1" id="radio-3" data-idx="2">
+        </div>
+        <div>
+            <label for="radio-4">Ecological</label>
+            <input type="radio" name="rad1" id="radio-4" data-idx="3">
+        </div>
+        <div>
+            <label for="radio-5">Happyness</label>
+            <input type="radio" name="rad1" id="radio-5" data-idx="4">
+        </div>
     </body>
     <script src="myJScripts.js"></script>
     <script type="text/javascript">

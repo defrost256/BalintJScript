@@ -1,4 +1,4 @@
-var radiusScale = 15, radiusOffset = 10;
+var radiusScale = 20, radiusOffset = 20;
 
 var svgContext,
     svgWidth,
