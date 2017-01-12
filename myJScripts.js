@@ -1,4 +1,11 @@
 var radiusScale = 20, radiusOffset = 20;
+var dataColors = [
+    "#0b6cf4",
+    "#32cdc0",
+    "#eebb11",
+    "#9140bf",
+    "#fa2014"
+];
 
 var svgContext,
     svgWidth,
@@ -90,5 +97,6 @@ function ticked() {
         return nodes[i].y + svgHalfHeight;
     }).attr("r", function(d, i){
         return nodes[i].dataSet[shownDataIdx];
-    }).duration(40);
+    }).style("fill", dataColors[shownDataIdx])
+        .duration(40);
 }
