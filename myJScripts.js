@@ -1,7 +1,10 @@
+//---- GLOBAL CONSTANTS ----
 var style = {
     circle: {
+                                        //the size of a circle is evaluated {data percent} * {radiusScale} + {radiusOffset}
         radiusScale: 20,
         radiusOffset: 20,
+                                        //The colors corresponding to the data, in order of appearance (in order of input data-idx)
         dataColors: [
             "#0b6cf4",
             "#32cdc0",
@@ -11,11 +14,12 @@ var style = {
         ]
     },
     details: {
-        animTimeMS: 800,
-        detailsCircleSize: 100,
-        fontColor: "white",
-        countryTextFontSize: 30,
-        dataTextFontSize: 20,
+        animTimeMS: 800,                //The time it takes to display the details circle in (ms)
+        detailsCircleSize: 100,         //The final size of the details circle
+        fontColor: "white",             //the font color of the details text
+        countryTextFontSize: 30,        //The final font size of the country detail text
+        dataTextFontSize: 20,           //The final font size of the data detail text
+                                        //The color of the edge of the details circle
         circleStrokeColor: {
             r: 0,
             g: 0,
@@ -24,6 +28,7 @@ var style = {
     }
 };
 
+//---- GLOBAL VARIABLES ----
 var svgContext,
     svgWidth,
     svgHeight,
@@ -42,6 +47,7 @@ var shownDataIdx = 0;
 var animatingRadius = false;
 var detailsOpen = false;
 
+//---- FUNCTIONS ----
 function initSVGContext() {
     svgContext=d3.select("svg");
     svgWidth = +svgContext.attr("width");
