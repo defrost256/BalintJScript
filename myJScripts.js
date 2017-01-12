@@ -1,11 +1,28 @@
-var radiusScale = 20, radiusOffset = 20;
-var dataColors = [
-    "#0b6cf4",
-    "#32cdc0",
-    "#eebb11",
-    "#9140bf",
-    "#fa2014"
-];
+var style = {
+    circle: {
+        radiusScale: 20,
+        radiusOffset: 20,
+        dataColors: [
+            "#0b6cf4",
+            "#32cdc0",
+            "#eebb11",
+            "#9140bf",
+            "#fa2014"
+        ]
+    },
+    details: {
+        animTimeMS: 800,
+        detailsCircleSize: 100,
+        fontColor: "white",
+        countryTextFontSize: 30,
+        dataTextFontSize: 20,
+        circleStrokeColor: {
+            r: 0,
+            g: 0,
+            b: 0
+        }
+    }
+};
 
 var svgContext,
     svgWidth,
@@ -13,7 +30,11 @@ var svgContext,
     svgHalfWidth,
     svgHalfHeight,
     circles,
-    detailsCircle, detailsText;
+    detailsCircle,
+    detailsText = {
+        country: undefined,
+        data: undefined
+    };
 
 var nodes;
 var simulation;
@@ -33,6 +54,12 @@ function normalize(v, min, max) {
     return (v - min) / (max - min);
 }
 
+function getStrokeWithAlpha(a)
+{
+    var c = style.details.circleStrokeColor;
+    return "rgba(" + c.r + "," + c.g + "," + c.b + "," + a + ")";
+}
+
 $("input").change(function(){
     shownDataIdx = $("input:checked").data("idx");
     simulation.force("collide").radius(function(d) { return d.graphicData[shownDataIdx]; });
@@ -47,37 +74,61 @@ function openDetails(elem){
             .attr("cx", elem.attr("cx"))
             .attr("cy", elem.attr("cy"))
             .attr("r", elem.attr("r"))
-            .style("fill", dataColors[shownDataIdx]);
+            .style("fill", style.circle.dataColors[shownDataIdx])
+            .style("stroke", getStrokeWithAlpha(0));
         detailsCircle = d3.select("circle.details");
         svgContext.append("text")
             .classed("details", true)
+            .attr("id", "textC")
             .attr("x", elem.attr("cx"))
             .attr("y", elem.attr("cy"))
             .attr("text-anchor", "middle")
             .attr("font-size", 5)
             .text(nodes[elem.data("idx")].country)
-            .style("fill", "white");
-        detailsText = d3.select("text.details");
+            .style("fill", style.details.fontColor);
+        detailsText.country = d3.select("text.details#textC");
+        svgContext.append("text")
+            .classed("details", true)
+            .attr("id", "textD")
+            .attr("x", elem.attr("cx"))
+            .attr("y", elem.attr("cy"))
+            .attr("dy", 0)
+            .attr("text-anchor", "middle")
+            .attr("font-size", 5)
+            .text(nodes[elem.data("idx")].dataSet[shownDataIdx])
+            .style("fill", style.details.fontColor);
+        detailsText.data = d3.select("text.details#textD");
         detailsCircle.on("click", function(){closeDetails();});
-        detailsCircle.transition().attr("r", 100)
-            .style("stroke", "black")
-            .duration(800);
-        detailsText.transition().attr("font-size", 30).duration(800);
+        detailsCircle.transition().attr("r", style.details.detailsCircleSize)
+            .style("stroke", getStrokeWithAlpha(1))
+            .duration(style.details.animTimeMS);
+        detailsText.country.transition()
+            .attr("font-size", style.details.countryTextFontSize)
+            .duration(style.details.animTimeMS);
+        detailsText.data.transition()
+            .attr("font-size", style.details.dataTextFontSize)
+            .attr("dy", 1.2 * style.details.countryTextFontSize)
+            .duration(style.details.animTimeMS);
     }
 }
 
 function closeDetails(){
     detailsCircle.transition().attr("r", 0)
-        .style("stroke", "rgba(0,0,0,0)")
+        .style("stroke", getStrokeWithAlpha(0))
         .duration(300)
         .on("end", function(){
             detailsCircle.remove();
             detailsOpen=false;
         });
-    detailsText.transition().attr("font-size", 0)
+    detailsText.country.transition().attr("font-size", 0)
         .duration(200)
         .on("end", function(){
-            detailsText.remove();
+            detailsText.country.remove();
+        });
+    detailsText.data.transition().attr("font-size", 0)
+        .duration(200)
+        .on("end", function () {
+            detailsText.data.remove();
         });
 }
 
@@ -110,11 +161,18 @@ function initJSONData(){
             nodes.push({
                 country: d.country,
                 graphicData: [
-                    normalize(+d.wellbeing, marginData.wellbeing.min, marginData.wellbeing.max) * radiusScale + radiusOffset,
-                    normalize(+d.life, marginData.life.min, marginData.life.max) * radiusScale + radiusOffset,
-                    normalize(+d.inequality, marginData.inequality.min, marginData.inequality.max) * radiusScale + radiusOffset,
-                    normalize(+d.ecological, marginData.ecological.min, marginData.ecological.max) * radiusScale + radiusOffset,
-                    normalize(+d.happy, marginData.happy.min, marginData.happy.max) * radiusScale + radiusOffset
+                    normalize(+d.wellbeing, marginData.wellbeing.min, marginData.wellbeing.max) * style.circle.radiusScale + style.circle.radiusOffset,
+                    normalize(+d.life, marginData.life.min, marginData.life.max) * style.circle.radiusScale + style.circle.radiusOffset,
+                    normalize(+d.inequality, marginData.inequality.min, marginData.inequality.max) * style.circle.radiusScale + style.circle.radiusOffset,
+                    normalize(+d.ecological, marginData.ecological.min, marginData.ecological.max) * style.circle.radiusScale + style.circle.radiusOffset,
+                    normalize(+d.happy, marginData.happy.min, marginData.happy.max) * style.circle.radiusScale + style.circle.radiusOffset
+                ],
+                dataSet: [
+                    +d.wellbeing,
+                    +d.life,
+                    +d.inequality,
+                    +d.ecological,
+                    +d.happy
                 ]
             });
             svgContext.append("circle")
@@ -145,6 +203,6 @@ function ticked() {
         return nodes[i].y + svgHalfHeight;
     }).attr("r", function(d, i){
         return nodes[i].graphicData[shownDataIdx];
-    }).style("fill", dataColors[shownDataIdx])
+    }).style("fill", style.circle.dataColors[shownDataIdx])
         .duration(40);
 }
