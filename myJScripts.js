@@ -12,12 +12,14 @@ var svgContext,
     svgHeight,
     svgHalfWidth,
     svgHalfHeight,
-    circles;
+    circles,
+    detailsCircle, detailsText;
 
 var nodes;
 var simulation;
-var shownDataIdx = 1;
+var shownDataIdx = 0;
 var animatingRadius = false;
+var detailsOpen = false;
 
 function initSVGContext() {
     svgContext=d3.select("svg");
@@ -33,9 +35,51 @@ function normalize(v, min, max) {
 
 $("input").change(function(){
     shownDataIdx = $("input:checked").data("idx");
-    simulation.force("collide").radius(function(d) { return d.dataSet[shownDataIdx]; });
+    simulation.force("collide").radius(function(d) { return d.graphicData[shownDataIdx]; });
     simulation.alpha(2).restart();
 });
+
+function openDetails(elem){
+    if(!detailsOpen){
+        detailsOpen=true;
+        svgContext.append("circle")
+            .classed("details", true)
+            .attr("cx", elem.attr("cx"))
+            .attr("cy", elem.attr("cy"))
+            .attr("r", elem.attr("r"))
+            .style("fill", dataColors[shownDataIdx]);
+        detailsCircle = d3.select("circle.details");
+        svgContext.append("text")
+            .classed("details", true)
+            .attr("x", elem.attr("cx"))
+            .attr("y", elem.attr("cy"))
+            .attr("text-anchor", "middle")
+            .attr("font-size", 5)
+            .text(nodes[elem.data("idx")].country)
+            .style("fill", "white");
+        detailsText = d3.select("text.details");
+        detailsCircle.on("click", function(){closeDetails();});
+        detailsCircle.transition().attr("r", 100)
+            .style("stroke", "black")
+            .duration(800);
+        detailsText.transition().attr("font-size", 30).duration(800);
+    }
+}
+
+function closeDetails(){
+    detailsCircle.transition().attr("r", 0)
+        .style("stroke", "rgba(0,0,0,0)")
+        .duration(300)
+        .on("end", function(){
+            detailsCircle.remove();
+            detailsOpen=false;
+        });
+    detailsText.transition().attr("font-size", 0)
+        .duration(200)
+        .on("end", function(){
+            detailsText.remove();
+        });
+}
 
 function initJSONData(){
     $.getJSON("dataJson.json", function(data){
@@ -65,7 +109,7 @@ function initJSONData(){
             var d = data[i];
             nodes.push({
                 country: d.country,
-                dataSet: [
+                graphicData: [
                     normalize(+d.wellbeing, marginData.wellbeing.min, marginData.wellbeing.max) * radiusScale + radiusOffset,
                     normalize(+d.life, marginData.life.min, marginData.life.max) * radiusScale + radiusOffset,
                     normalize(+d.inequality, marginData.inequality.min, marginData.inequality.max) * radiusScale + radiusOffset,
@@ -76,7 +120,7 @@ function initJSONData(){
             svgContext.append("circle")
                 .attr("cx", svgWidth/2)
                 .attr("cy", svgHeight/2)
-                .attr("r", nodes[i].dataSet[0])
+                .attr("r", nodes[i].graphicData[0])
                 .attr("data-idx", i)
                 .style("fill", "red");
         }
@@ -86,8 +130,12 @@ function initJSONData(){
             .alpha(2)
             .force("x", d3.forceX().strength(0.002))
             .force("y", d3.forceY().strength(0.002))
-            .force("collide", d3.forceCollide().radius(function(d) { return d.dataSet[shownDataIdx]; }).iterations(2))
+            .force("collide", d3.forceCollide().radius(function(d) { return d.graphicData[shownDataIdx]; }).iterations(2))
             .on("tick", ticked);
+
+        $("circle").click(function(){
+            openDetails($(this));
+        });
     });
 }
 function ticked() {
@@ -96,7 +144,7 @@ function ticked() {
     }).attr("cy", function(d, i){
         return nodes[i].y + svgHalfHeight;
     }).attr("r", function(d, i){
-        return nodes[i].dataSet[shownDataIdx];
+        return nodes[i].graphicData[shownDataIdx];
     }).style("fill", dataColors[shownDataIdx])
         .duration(40);
 }
